@@ -58,7 +58,7 @@ class App extends Component {
   }
 
   loadTitle(){
-    let URL1 = "https://www.googleapis.com/youtube/v3/playlists?id="+id+"&maxResults=1&key=AIzaSyARj4JZbz_ct5qD5JsxwkK-rpt67IJ3L9w&part=snippet";
+    let URL1 = "https://www.googleapis.com/youtube/v3/playlists?id="+id+"&maxResults=1&key="+key+"&part=snippet";
     axios.get(URL1).then(response => {
     //  console.log(response.data.items[0]);
       this.setState({title: response.data.items[0].snippet.title})
