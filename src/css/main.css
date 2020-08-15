@@ -1,0 +1,107 @@
+.loadB{
+    width:10px;
+    border: 1px solid black;
+    margin-left: 5px;
+    width:90px;
+    padding:2px;
+    font-weight:bold;
+}
+.loadB:hover{
+    background-color: #efefef;
+    color:black;
+    cursor:pointer;
+}
+.nextB{
+    position:absolute;
+    top:2px;
+    right:70px;
+    width:70px;
+    border-radius: 5px;
+    border: 0.75px double black;
+}
+.nextB:hover{
+    background-color:#efefef;
+    color:black;
+    cursor: pointer;
+}
+.prevB{
+    position:absolute;
+    top:2px;
+    left:70px;
+    width:70px;
+    border-radius: 5px;
+    border: 0.75px double black;
+}
+.prevB:hover{
+    background-color:#efefef;
+    color:black;
+    cursor: pointer;
+}
+iframe {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right:0;
+    margin: auto;
+    bottom:0;
+    max-height:75%;
+    width: "100%";
+    height: 500px;
+}
+.loaded{
+    position:absolute;
+    bottom:2%;
+    text-align: center;
+    left:2%;
+}
+.videoTitle{
+    position:absolute;
+    right:2%;
+    bottom:2%;
+  }
+
+.inpt{
+    width:50%;
+}
+@media screen and (max-width: 700px) {
+    .inpt{
+        width:40%;
+        height:13px;
+    }
+    .nextB{
+        font-size: 10px;
+        right:1%;
+    }
+    .prevB{
+        font-size: 10px;
+        left:1%;
+    }
+    .loaded{
+        bottom:1%;
+        font-size: 10px;
+        text-align: center;
+        left:2%;
+        bottom:2%;
+    }
+    .videoTitle{
+        font-size: 10px;
+        position:absolute;
+        right:2%;
+        bottom:2%;
+      }
+    .loadB{
+        border: 0.6px solid black;
+        margin-left: 2.5px;
+        margin-top:1px;
+        padding:1px;
+        font-weight:bold;
+        font-size: 12.5px;
+    }
+    *{
+        margin:0px;
+    }
+    body{
+        margin: 0px;
+    }
+    
+}
